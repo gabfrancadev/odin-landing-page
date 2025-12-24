@@ -1,0 +1,86 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.menu-bg {
+  background-color: #1f2937;
+}
+.menu {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+}
+.menu-logo {
+  font-size: 24px;
+  color: #e5e7eb;
+  font-weight: 700;
+  margin-right: 48px;
+}
+.menu-items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+.hero {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: start;
+  gap: 40px;
+  padding: 60px 20px;
+}
+.hero-content {
+  flex: 1 1 300px;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+.hero-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: #d1d5db;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.hero-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  max-width: 500px;
+}
